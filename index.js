@@ -19,5 +19,5 @@ app.get("/dc", (req,res)=>{
 
 //Inicia o servidor
 app.listen(PORT, ()=>{
-    console.log(`Servidor rodando em http://localhost:${PORT}`)
+    console.log(`Servidor rodando no endereço http://localhost:${PORT}`)
 })
